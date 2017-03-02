@@ -50,6 +50,8 @@ Id + "Modal". with adding id to the toggle you can open multiple inner modals.
 
 C6) **(New)** to prevent modal from closing by clicking the close button, pressing 'Esc' key or by clicking outside of the modal, you just need to add **data-closedisabled='false'**.
 
+C7) **(New)** add **data-draggable='true'** for draggable modal.
+
 **Note: Modal's Markup will automatically append to body, and you don't need to add Modal's markup to body manually.**
 
 **Callback function after Ajax Loaded**
