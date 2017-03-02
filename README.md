@@ -15,6 +15,7 @@ This packages also depends on: <br />
 Jquery >=2.0.0<br />
 Bootstrap >=3.0.0<br />
 FontAwsome >=4.2.0<br />
+Jquery-ui >=1.11.4<br />
 
 If you don't use nuget package manager, just download source code, and copy MT.BootstrapTabsLazyLoader.js into your scripts folder.
 
