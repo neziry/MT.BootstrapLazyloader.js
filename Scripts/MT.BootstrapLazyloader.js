@@ -213,7 +213,7 @@ $(function () {
         var modalHeader = $(currHandle).data('header');
         var modalClass = $(currHandle).data('size');
         var callback = $(currHandle).data('callback');
-
+        var modalDraggable = $(currHandle).data('draggable');
 
         var modal = $('#' + currHandleId);
         if (modal.length == 0) {
@@ -253,6 +253,13 @@ $(function () {
         }).always(function () {
             $(currHandle).find('.modal-loader').remove();
         });
+        
+        // modal draggable
+        if (modalDraggable && modalDraggable != null) {
+            $('.modal').draggable({
+                handle: ".modal-header"
+            });
+        }
     });
 
     //
